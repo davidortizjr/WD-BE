@@ -1,0 +1,30 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    
+}
+
+.navbar {
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top {
+    height: auto;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
